@@ -37,7 +37,7 @@ function submitData(e) {
   // INSERT CODE SNIPPET FROM POSTMAN BELOW
   const myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
-  myHeaders.append("Authorization", "Bearer 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");
+  myHeaders.append("Authorization", "Bearer hf_HAWOArlZOBaBwWjIFYuHrjlYwULSPIMeHba");
 
   const raw = JSON.stringify({
     "text_to_summarize": text_to_summarize
